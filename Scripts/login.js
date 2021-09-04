@@ -12,6 +12,7 @@ const login= async ()=>{
     }
     $.post(`${url}/auth/login`,body,
             function(data){
+                sessionStorage.user_id = data.user_id
                 sessionStorage.auth = data.access_token
                 window.location.href=`./index.html`
             }).fail(

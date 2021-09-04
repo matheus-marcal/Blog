@@ -1,0 +1,43 @@
+
+
+input{
+    font-family: 'Raleway', sans-serif;
+     margin: 30px; 
+    line-height: 40px;
+    width: 80%;
+    border: 0px;
+    border-bottom: 1px solid #DDD;
+    text-align: center;
+}
+
+input:focus{
+    border: 2px solid #CCC;
+}
+input:hover{
+    border: 2px solid #CCC;
+}
+
+select{
+    font-family: 'Raleway', sans-serif;
+    background: white;
+     margin: 30px; 
+    width: 30%;
+    height: 40px;
+    border: 0px;
+    border-bottom: 1px solid #DDD;
+    text-align: center;
+}
+
+select:focus{
+    border: 2px solid #CCC;
+}
+select:hover{
+    border: 2px solid #CCC;
+}
+
+textarea{
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    width: 80%;
+    height: 400px;
+}
