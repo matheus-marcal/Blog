@@ -1,0 +1,22 @@
+#login{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+input{
+    margin: 30px;
+    line-height: 40px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 1px solid #DDD;
+    text-align: center;
+}
+
+input:focus{
+    border: 2px solid #CCC;
+}
+input:hover{
+    border: 2px solid #CCC;
+}
