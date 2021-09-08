@@ -17,9 +17,7 @@ const url = 'http://localhost:3000'
 const main = async () =>{
  let tam_max
  let artigos = await $.get(`${url}/artigo`)
- if(artigos.length > 5)
- tam_max= 5;
- else
+
  tam_max = artigos.length;
 
  for(i=1; i<=tam_max;i++){

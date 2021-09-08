@@ -2,7 +2,7 @@ const url = 'http://localhost:3000'
 
 const main = async () =>{
     let id = window.location.search.substring(1,window.location.search.length)
-    console.log(id)
+    //console.log(id)
     if(!id)
         window.location.href=`./index.html`
     
