@@ -11,6 +11,12 @@ const main = async () =>{
             tam_max= 5;
             else
             tam_max = artigos.length;
+        $('#principal').append(`<div class="card">
+            <div class="container">
+                <h3 class="titulo">${id}</h3>
+            </div>
+        </div>`)
+
 
         for(i=1; i<=tam_max;i++){
             $('#principal').append(`<div class="card">
