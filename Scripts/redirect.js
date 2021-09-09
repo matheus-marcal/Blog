@@ -3,7 +3,7 @@ let $sair = $('#sair')[0]
 let $comprimento = $('#comprimento')[0]
 
 
-const url_redirect = 'http://localhost:3000'
+const url_redirect = 'http://ec2-3-12-73-143.us-east-2.compute.amazonaws.com:3000'
 
 let logado = false
 
@@ -42,7 +42,7 @@ var oReq = new XMLHttpRequest();
             }
         }
 var oReq2 = new XMLHttpRequest();
-        
+       
         oReq2.open("GET",`${url_redirect}/users/${sessionStorage.user_id}`)
         oReq2.setRequestHeader('Authorization',`Bearer ${sessionStorage.auth}`)
         oReq2.setRequestHeader('Accept',`application/json`)

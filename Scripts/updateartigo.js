@@ -3,7 +3,7 @@ let $categoria = $('#Categoria')[0]
 let $titulo_pag = $('#titulo_pag')
 let $conteudo = $('#conteudo')[0]
 let $bnt = $('#bnt')
-const url_upt= 'http://localhost:3000'
+const url_upt= 'http://ec2-3-12-73-143.us-east-2.compute.amazonaws.com:3000'
 
 var editor1cfg = {}
 	editor1cfg.toolbar = "mytoolbar";
@@ -24,7 +24,6 @@ var oReq3 = new XMLHttpRequest();
                 editor1.setHTMLCode(artigo.Text)
                 $($titulo)[0].value = artigo.Title
                 $($categoria)[0].value = artigo.Categoria
-            
             }
             else if(oReq3.readyState === 4 && oReq3.status !== 200){
                 alert('erro')

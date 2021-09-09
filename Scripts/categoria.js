@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000'
+const url = 'http://ec2-3-12-73-143.us-east-2.compute.amazonaws.com:3000'
 
 const main = async () =>{
     let id = window.location.search.substring(1,window.location.search.length)

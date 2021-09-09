@@ -1,6 +1,6 @@
 let $email = $('#email')
 let $password = $('#password')
-const url = 'http://localhost:3000'
+const url = 'http://ec2-3-12-73-143.us-east-2.compute.amazonaws.com:3000'
 
 const login= async ()=>{
     let email = $email[0].value

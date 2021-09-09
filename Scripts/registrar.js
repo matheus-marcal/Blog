@@ -2,7 +2,7 @@ let $username = $('#username')[0]
 let $email = $('#email')[0]
 let $password = $('#password')[0]
 
-const url_registro = 'http://localhost:3000'
+const url_registro = 'http://ec2-3-12-73-143.us-east-2.compute.amazonaws.com:3000'
 
 var oReq4 = new XMLHttpRequest();
         oReq4.open("POST",`${url_registro}/users`)
